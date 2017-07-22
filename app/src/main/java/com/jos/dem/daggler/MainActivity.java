@@ -1,4 +1,4 @@
-package dem.jos.com.daggler;
+package com.jos.dem.daggler;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
