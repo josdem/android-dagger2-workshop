@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.jos.dem.daggler.ApplicationContext;
+import com.jos.dem.daggler.context.ApplicationContext;
 
 import dagger.Module;
 import dagger.Provides;

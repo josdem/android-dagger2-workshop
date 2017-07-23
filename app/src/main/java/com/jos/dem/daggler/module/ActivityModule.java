@@ -3,7 +3,7 @@ package com.jos.dem.daggler.module;
 import android.app.Activity;
 import android.content.Context;
 
-import com.jos.dem.daggler.ActivityContext;
+import com.jos.dem.daggler.context.ActivityContext;
 
 import dagger.Module;
 import dagger.Provides;
