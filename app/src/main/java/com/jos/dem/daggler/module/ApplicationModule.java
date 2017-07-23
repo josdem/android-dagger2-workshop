@@ -6,12 +6,10 @@ import android.content.SharedPreferences;
 
 import com.jos.dem.daggler.ApplicationContext;
 
+import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by josdem on 22/07/17.
- */
-
+@Module
 public class ApplicationModule {
 
   private final Application mApplication;

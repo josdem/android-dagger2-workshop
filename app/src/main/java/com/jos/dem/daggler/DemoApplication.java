@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.jos.dem.daggler.component.ApplicationComponent;
+import com.jos.dem.daggler.component.DaggerApplicationComponent;
 import com.jos.dem.daggler.module.ApplicationModule;
 
 public class DemoApplication extends Application {
