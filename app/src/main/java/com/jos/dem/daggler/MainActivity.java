@@ -3,7 +3,6 @@ package com.jos.dem.daggler;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.jos.dem.daggler.component.ActivityComponent;
 import com.jos.dem.daggler.component.DaggerActivityComponent;

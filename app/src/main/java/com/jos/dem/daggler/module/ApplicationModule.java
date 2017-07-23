@@ -2,7 +2,6 @@ package com.jos.dem.daggler.module;
 
 import android.app.Application;
 import android.content.Context;
-import android.content.SharedPreferences;
 
 import com.jos.dem.daggler.context.ApplicationContext;
 
@@ -12,25 +11,19 @@ import dagger.Provides;
 @Module
 public class ApplicationModule {
 
-  private final Application mApplication;
+  private final Application application;
 
-  public ApplicationModule(Application app) {
-    mApplication = app;
+  public ApplicationModule(Application application) {
+    this.application = application;
   }
 
   @Provides
   @ApplicationContext
   Context provideContext() {
-    return mApplication;
+    return application;
   }
 
   @Provides
-  Application provideApplication() {
-    return mApplication;
-  }
+  Application provideApplication() { return application; }
 
-  @Provides
-  SharedPreferences provideSharedPrefs() {
-    return mApplication.getSharedPreferences("demo-prefs", Context.MODE_PRIVATE);
-  }
 }
