@@ -6,6 +6,7 @@ import android.content.Context;
 import com.jos.dem.daggler.context.ApplicationContext;
 import com.jos.dem.daggler.DemoApplication;
 import com.jos.dem.daggler.module.ApplicationModule;
+import com.jos.dem.daggler.service.UserService;
 
 import javax.inject.Singleton;
 
@@ -21,5 +22,7 @@ public interface ApplicationComponent {
   Context getContext();
 
   Application getApplication();
+
+  UserService getUserService();
 
 }
