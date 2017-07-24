@@ -1,11 +1,11 @@
-package com.jos.dem.daggler;
+package com.jos.dem.dagger;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.jos.dem.daggler.component.ApplicationComponent;
-import com.jos.dem.daggler.component.DaggerApplicationComponent;
-import com.jos.dem.daggler.module.ApplicationModule;
+import com.jos.dem.dagger.component.ApplicationComponent;
+import com.jos.dem.dagger.component.DaggerApplicationComponent;
+import com.jos.dem.dagger.module.ApplicationModule;
 
 public class DemoApplication extends Application {
 

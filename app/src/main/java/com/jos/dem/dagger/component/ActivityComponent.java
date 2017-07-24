@@ -1,8 +1,8 @@
-package com.jos.dem.daggler.component;
+package com.jos.dem.dagger.component;
 
-import com.jos.dem.daggler.MainActivity;
-import com.jos.dem.daggler.context.PerActivity;
-import com.jos.dem.daggler.module.ActivityModule;
+import com.jos.dem.dagger.MainActivity;
+import com.jos.dem.dagger.context.PerActivity;
+import com.jos.dem.dagger.module.ActivityModule;
 
 import dagger.Component;
 

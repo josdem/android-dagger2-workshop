@@ -1,9 +1,9 @@
-package com.jos.dem.daggler.service;
+package com.jos.dem.dagger.service;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-import com.jos.dem.daggler.model.User;
+import com.jos.dem.dagger.model.User;
 
 @Singleton
 public class UserService {

@@ -1,4 +1,4 @@
-package com.jos.dem.daggler.model;
+package com.jos.dem.dagger.model;
 
 public class User {
 

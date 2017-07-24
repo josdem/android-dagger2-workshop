@@ -1,12 +1,12 @@
-package com.jos.dem.daggler.component;
+package com.jos.dem.dagger.component;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.jos.dem.daggler.context.ApplicationContext;
-import com.jos.dem.daggler.DemoApplication;
-import com.jos.dem.daggler.module.ApplicationModule;
-import com.jos.dem.daggler.service.UserService;
+import com.jos.dem.dagger.context.ApplicationContext;
+import com.jos.dem.dagger.DemoApplication;
+import com.jos.dem.dagger.module.ApplicationModule;
+import com.jos.dem.dagger.service.UserService;
 
 import javax.inject.Singleton;
 

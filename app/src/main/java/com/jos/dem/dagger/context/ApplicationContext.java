@@ -1,4 +1,4 @@
-package com.jos.dem.daggler.context;
+package com.jos.dem.dagger.context;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

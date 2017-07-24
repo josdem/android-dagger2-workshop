@@ -1,13 +1,13 @@
-package com.jos.dem.daggler;
+package com.jos.dem.dagger;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.jos.dem.daggler.component.ActivityComponent;
-import com.jos.dem.daggler.component.DaggerActivityComponent;
-import com.jos.dem.daggler.module.ActivityModule;
-import com.jos.dem.daggler.service.UserService;
+import com.jos.dem.dagger.component.ActivityComponent;
+import com.jos.dem.dagger.component.DaggerActivityComponent;
+import com.jos.dem.dagger.module.ActivityModule;
+import com.jos.dem.dagger.service.UserService;
 
 import javax.inject.Inject;
 

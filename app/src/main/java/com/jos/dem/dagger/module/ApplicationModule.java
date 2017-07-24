@@ -1,9 +1,9 @@
-package com.jos.dem.daggler.module;
+package com.jos.dem.dagger.module;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.jos.dem.daggler.context.ApplicationContext;
+import com.jos.dem.dagger.context.ApplicationContext;
 
 import dagger.Module;
 import dagger.Provides;
